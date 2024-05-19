@@ -65,9 +65,41 @@ nav li a {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28176, 151, 49, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+nav #menu-pdf {
+    color: #504416;
+    background-color: #b09731;
+    border: 2px solid #504416;
+    font-weight: bolder;
+}
+
+nav #menu-pdf:hover {
+    color: #E0D090;
+    background-color: #b09731;
+    border: 2px solid #E0D090;
+}
+
 /* Main Content */
 main {
     height: 100vh;
     width: 100%;
     background-color: #3f6264;
+}
+
+/* Custom Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: #504416;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: #b09731;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #E0D090;
 }
