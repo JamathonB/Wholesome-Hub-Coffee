@@ -80,9 +80,19 @@ nav #menu-pdf:hover {
 
 /* Main Content */
 main {
-    height: 100vw;
+    height: 100%;
     width: 100%;
     background-color: #3f6264;
+}
+
+main article H2 {
+    font-family: 'Indie Flower', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+main article p {
+    font-family: Poppins, sans-serif;
 }
 
 
