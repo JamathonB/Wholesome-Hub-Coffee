@@ -83,16 +83,32 @@ main {
     height: 100%;
     width: 100%;
     background-color: #3f6264;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main img {
+    border-radius: 50%;
+    width: 400px;
+    height: auto !important;
+    padding-bottom: 50px;
 }
 
 main article H2 {
     font-family: 'Indie Flower', sans-serif;
     font-weight: bolder;
     font-size: 50px;
+    display: flex !important;
+    justify-content: center !important;
+    text-decoration: underline;
 }
 
 main article p {
     font-family: Poppins, sans-serif;
+}
+
+main article h2 {
+    color: #b09731;
 }
 
 
@@ -100,7 +116,7 @@ main article p {
 /* Custom Scroll Bar */
 
 ::-webkit-scrollbar {
-    width: 1em;
+    width: 0.5em;
 }
 
 ::-webkit-scrollbar-track {
